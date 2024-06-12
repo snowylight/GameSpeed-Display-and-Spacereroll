@@ -1,2 +1,2 @@
 # GameSpeed-Display-and-Spacereroll
-shift to change speed, space to reroll in shop
+Press the shift key to change speed, press the space key to reroll in shop
