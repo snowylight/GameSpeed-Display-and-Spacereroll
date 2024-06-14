@@ -17,7 +17,7 @@ function create_UIBox_HUD()
     local hud = speedshow()
     hud.nodes[1].nodes[1].nodes[1].nodes[#hud.nodes[1].nodes[1].nodes[1].nodes+1] = 
     {n=G.UIT.R, config={align = "cm"}, nodes={
-      {n=G.UIT.T, config={text = "Currently SpeedX", scale = 0.5, colour = G.C.CHIPS, pop_in = 0.5, maxw = 5}},
+      {n=G.UIT.T, config={text = "Current SpeedX", scale = 0.5, colour = G.C.CHIPS, pop_in = 0.5, maxw = 5}},
       {n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.SETTINGS, ref_value = 'GAMESPEED'}}, colours = {G.C.MULT}, scale = 0.5, pop_in = 0.5, maxw = 5})}}
     }}
     return hud
