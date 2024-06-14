@@ -12,9 +12,9 @@ local last_reroll_time = 0
 local reroll_interval = 0.2
 love.graphics.print = function() end
 
-cuiboxhud = create_UIBox_HUD
+speedshow = create_UIBox_HUD
 function create_UIBox_HUD()
-    local hud = cuiboxhud()
+    local hud = speedshow()
     hud.nodes[1].nodes[1].nodes[1].nodes[#hud.nodes[1].nodes[1].nodes[1].nodes+1] = 
     {n=G.UIT.R, config={align = "cm"}, nodes={
       {n=G.UIT.T, config={text = "Currently SpeedX", scale = 0.5, colour = G.C.CHIPS, pop_in = 0.5, maxw = 5}},
